@@ -5,31 +5,8 @@ body {
   font-weight: 400;
   font-style: normal;
   color: var(--c-text);
-  background-color: var(--c-body);
-  scrollbar-face-color: #fff;
-  scrollbar-track-color: transparent;
-}
 
-body::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-  border-radius: 30px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #fff;
-  border-radius: 30px;
-  -webkit-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-  background: #fff;
-}
-
-body::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 30px;
+  background-color: #fff;
 }
 
 h1 {
@@ -220,7 +197,7 @@ h3 {
   background-size: 100% auto;
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-color: #db7e29;
+  background-color: #b81e13;
 }
 
 .roadmap__title_container {
